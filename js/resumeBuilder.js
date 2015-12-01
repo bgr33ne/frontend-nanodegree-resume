@@ -230,9 +230,5 @@ displayWork();
 projects.display();
 education.display();
 
-
-
 //map
 $("#mapDiv").append(googleMap);
-var formattedbioPic = HTMLbioPic.eplace("%data%", bio.bioPic);
-$("#header").append(formattedbioPic);
